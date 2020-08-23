@@ -1,0 +1,71 @@
+/* Attribute Selectors
+
+=========================================================================================
+                                                                                 notation
+element [ ATTRIBUTE = VALUE ] {
+    Style Properties
+}
+
+=========================================================================================
+
+/* this is similar to .subtitle{ } */
+/* but only considers H2s */
+h2[class="subtitle"] {
+  color: blue;
+}
+
+/* with images USING donwloaded files */
+img[src="img-1.jpg"] {
+  border: 1px solid black;
+}
+
+/* with images USING URIs */
+img[src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png"]
+{
+  border: 1px solid black;
+}
+
+/* SRC^ this is not direct equating*/
+/* every single image that in src begins with "img-" */
+img[src^="img-"] {
+  border: 1px solid black;
+}
+
+/*
+
+src^  =  begins with
+[src^="../img/"]
+
+src$  =  ends with
+[src$=".png"]
+
+src*  =  contains everywhere
+[src*="banana"]
+
+=========================================================================================
+
+WHITESPACE attribute selector
+
+you can add multiple class to element in HTML (classes or attributes)
+
+<h2 class="class-1 class-2 class-3 class-special">this is a header</h2> 
+
+/* ~= */
+/* isolating certain elements that contains certain class */
+h2[class~="class-special"] {
+  background: green;
+}
+
+/* |= */
+/* generally used in libraries if there are more IDs:
+
+subtitle-98347
+subtitle-24355
+subtitle-23452
+
+find an H2 where the class in either subtitle or subtitle- ...
+
+*/
+h2[class|="subtitle"] {
+  background: green;
+}

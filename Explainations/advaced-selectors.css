@@ -1,0 +1,45 @@
+/* Advanced Selectors */
+
+/*=========================================================================================
+
+ADJACENT selector 
+this will be aplied at every A teg that follows an H2
+
+*/
+
+h2 + a {
+  color: blue;
+}
+
+/*=========================================================================================
+
+GENERAL SIBLING combinator 
+this will be aplied at every A teg that follows an H2
+
+looks for elments that one after another BUT they have to share the SAME PARENT
+
+*/
+
+textarea ~ button {
+  color: blue;
+}
+
+/*=========================================================================================
+
+CHILD selector and DESCENDENCE selector
+for every child in ...
+
+LI (>) = direct child of UL
+LI ( ) = child of OL, child of LI, child of UL
+
+*/
+
+/* direct child */
+ul > li {
+  color: blue;
+}
+
+/* if it is contained by UL, style it */
+ul li {
+  color: blue;
+}

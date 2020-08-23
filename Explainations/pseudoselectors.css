@@ -1,0 +1,56 @@
+/* 
+
+PseudoSelectors > interacting with selector
+
+=========================================================================================
+                                                                                 notation
+SELECTOR : PSEUDOselector {
+    Style Properties
+}
+
+=========================================================================================
+
+now when hover over the element selected the properties will apply */
+
+h2:hover {
+  color: blue;
+}
+
+/*=======================================================================================
+
+selecting first / last / Nth child in an unordered list */
+
+li:first-child {
+  color: blue;
+}
+
+li:last-child {
+  color: blue;
+}
+
+li:nth-child(3) {
+  color: blue;
+}
+
+/* this will apply for ever LI that has ONNLY and ONLY one child */
+/* if more than ONE child, this will not be applied */
+
+li:only-child {
+  color: blue;
+}
+
+td:only-child {
+  color: blue;
+}
+
+/*=======================================================================================
+
+/* before and after clicking a website */
+
+.google-link:link {
+  color: blue;
+}
+
+.google-link:visited {
+  color: purple;
+}
