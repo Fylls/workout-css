@@ -1,0 +1,49 @@
+/* 
+
+GRADIENTS
+transition between Nth number of colors
+
+*/
+
+/*======================================================================
+                            LINERAR GRADIENTS
+*/
+
+.canvas {
+  background: linear-gradient(to right, red, blue);
+  background-size: cover;
+}
+
+/*======================================================================
+                            DIAGONAL GRADIENTS
+*/
+
+.canvas {
+  background: linear-gradient(to bottom right, red, blue, green);
+  background-size: cover;
+}
+
+/* using angles, default pointing upward= 0deg */
+.canvas {
+  background: linear-gradient(-90deg, red, blue, green);
+  background-size: cover;
+}
+
+/* ======================================================================
+                            RADIAL GRADIENTS
+inner => outer
+red      blue
+*/
+
+.canvas {
+  background: radial-gradient(red, blue);
+}
+
+.canvas {
+  background: radial-gradient(red 20%, blue 40%, green 70%);
+}
+
+/* shade, default is "ellipse" */
+.canvas {
+  background: radial-gradient(circle, red 20%, blue 40%, green 70%);
+}

@@ -1,0 +1,45 @@
+/*
+
+ABSOLUTES UNITS: cm, mm, inches
+
+    same length no matter where ( phone or ultrawide TV )
+    take a ruler and try
+
+
+RELATIVE UNITS: 70%
+
+    better than pixel, awesome for responsive layouts
+    depending on parent
+
+
+PIXELS: (it is considere absolute but it changes depending on hardware)
+
+    DPI ( dots per inch ) pixel density, resolution
+
+    absolute illusion
+
+    it is consisten within a devices but:
+    if a device has more pixels => small design
+    if a device has less pixels => big design
+
+
+EM
+
+    relative to standart font-size
+
+
+VW VH (viewWidth, viewHeight)
+
+    1% of total viewPort
+
+*/
+
+/*
+
+you are maily going to use: 
+
+em,
+px,
+% 
+
+*/
