@@ -3,8 +3,9 @@
 # Workourt: CSS
 
 <img src="https://user-images.githubusercontent.com/55017307/90990098-eb177d00-e59e-11ea-8088-2544cfa8c21e.jpg" width="1000"/>
-
 <br>
+<br>
+
 worst programming paradigm ever invented
 
 # Here are some visual rappresenation of CSS
