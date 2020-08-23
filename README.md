@@ -1,2 +1,2 @@
 # workout-css
- word programming paradigm ever invented
+worst programming paradigm ever invented
