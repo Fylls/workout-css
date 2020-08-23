@@ -1,0 +1,70 @@
+/* 
+  
+                                COLORS
+
+*/
+
+/* 
+
+======================================================================
+
+#1                            ColorNames
+
+red, green, blue, black
+
+all names? => "https://www.rapidtables.com/web/css/css-color.html"
+
+*/
+
+p {
+  color: blue;
+}
+
+/* 
+
+======================================================================
+
+#2                             HexCodes
+
+from    000000 ( black )
+to      FFFFFF ( white )
+
+6 digit with 16 combination from 0 to F
+
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+3 TWO DIGIT PAIRS specifying amound of each RGB color
+
+00          AB          F3
+red        green        blue
+
+FF0000      =>     purest red
+00FF00      =>     purest green
+0000FF      =>     purest blue
+
+*/
+
+p {
+  color: #8aa33e;
+}
+
+/* 
+
+======================================================================
+
+#3                                 RGB
+
+specifying in decimal from 0 to 255 the amount of each color
+
+rgb(255, 0, 0)      =>      purest red
+rgb(0, 255, 0)      =>     purest green
+rgb(0, 0, 255)      =>     purest blue
+
+*/
+
+p {
+  color: rgb(138, 67, 62);
+}
+
+/*  we also have rgbA, a = alpha represents transparency  */
+/*  just use color picker BRUH  */

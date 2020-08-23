@@ -1,0 +1,75 @@
+/* 
+
+BACKGROUND PROPERTIES
+
+you can set values either global or specific
+
+*/
+
+/* setting BG color*/
+
+body {
+  background: red;
+}
+
+body {
+  background-color: red;
+}
+
+/* this is NOT going to work */
+
+body {
+  background-color: url("https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png");
+}
+
+/*
+
+using URLs linking to endpoint 
+setting BG image
+
+*/
+
+body {
+  background: url("https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png");
+}
+
+body {
+  background-image: url("https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png");
+}
+
+/*
+
+IMAGE WILL BE REPETED sinnce by default we are using absolute measuraments
+background-repeat: "repeat"
+
+here we will see a red box with a image smaller than the red box containing it
+ 
+*/
+
+body {
+  background: url("https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png");
+  background-repeat: no-repeat;
+  background-color: red;
+}
+
+/*
+
+fixing the UGLY repeting effect using   >   background-size: cover 
+If image is not vectorial it will ruin its quality
+
+*/
+
+body {
+  background: url("https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: red;
+}
+
+/*
+
+background-size: cover;     =>    resize to fit ( even over max dimensions )
+ 
+background-size: contain;   =>    resize image without scaling it over its max dimensions ( still repeting )
+
+*/

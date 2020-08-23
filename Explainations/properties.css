@@ -1,0 +1,65 @@
+/*
+
+PROPERTIES
+
+selector {
+    property : value;
+    property : value;
+    property : value;
+    property : value;
+    property : value;
+}
+
+property    => what changes
+value       => how it will change changes
+
+======================================================================
+
+"CSS GENERAL RULE"
+how CSS is supposed to look
+
+======================================================================
+
+SELECTOR => targeting an element in a page
+
+examples:
+
+*/
+
+a
+ul
+li
+.about-class
+#about-id
+h2:hover
+li:first-child
+li:only-child
+.google-link:visited
+h2 + a
+ul > li
+ul li
+textarea ~ button 
+img[src^="img-"]
+h2[class="subtitle"]
+h2[class~="class-special"]
+
+/* 
+
+CSS BLOCK => everything inside the brackets
+collection of key-value pairs
+
+{
+    property : value;
+    property : value;
+    property : value;
+    property : value;
+    property : value;
+}
+
+*/
+
+p {
+  color: red;
+  font: 100;
+  font-size: small;
+}
