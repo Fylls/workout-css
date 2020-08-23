@@ -1,0 +1,56 @@
+/*
+
+Specificity: when to use CLASSes and IDs 
+
+Different selectors are more powerfull then others:
+The more specific selector will override all the other
+
+In-Line-Style   >   ID   >   class   >   element 
+
+
+=========================================================================================
+
+
+<h2 class="about-class">this is a header</h2> 
+
+*/
+
+h2 {
+  color: red;
+}
+
+.about-class {
+  color: blue;
+}
+
+/*  HERE The end color of the header will be BLUE 
+
+
+=========================================================================================
+
+
+<h2
+  class="about-class"
+  id="about-id"
+  style="color: oragnge"
+>
+
+  this is a header
+  
+</h2>
+
+*/
+
+h2 {
+  color: red;
+}
+
+.about-class {
+  color: blue;
+}
+
+.about-id {
+  color: green;
+}
+
+/* HERE The end color of the header will be ORANGE */
