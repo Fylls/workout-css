@@ -1,0 +1,34 @@
+/*
+
+TEXT MANIPULATION =>  things you can change no matter the font
+
+underlining, capitalization
+
+
+*/
+
+/* TEXT DECORATIONS */
+
+.link {
+  /* a tags by default have UNDERLINE text decoration */
+  text-decoration: underline;
+
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: none;
+}
+
+/* TEXT TRANSFORMS */
+
+body {
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
+/* JUSTIFICATION & ALIGNMENT */
+
+body {
+  text-align: center;
+  text-align: justify;
+}

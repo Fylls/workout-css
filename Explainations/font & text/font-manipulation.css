@@ -1,0 +1,51 @@
+/*
+
+FONT MANIPULATION =>  things the font decises to change
+
+sizing, bolding
+
+
+*/
+
+body {
+  font-size: 1.25em; /* 25% bigger, responsive */
+  font-weight: 200; /* from 0 to infinity, selecting boldness, 400 is standard */
+}
+
+/* STYLE */
+
+.italics {
+  font-style: normal; /* default */
+
+  font-style: italic;
+  font-style: oblique;
+}
+
+/*
+
+FONT FAMILIES
+
+collection of fonts that have the similar features 
+here are the main ones:
+
+1) SERIF            =>      small lines at end of letters - academic papers, prints
+EX: Times New Roman, Georgia
+
+2) SANS SERIF       =>      cleaner to read on screens - social media, web, apps
+EX: Arial, Calibri
+
+3) MONOSPACED       =>      all character takes the same space - artistics, modern, clean, techy
+EX: Corier New
+
+<<< YOU CAN EVER SPECIFY THE FONT'S NAME >>>
+
+*/
+
+body {
+  /* developers mostly prefers sans-serif */
+  font-family: sans-serif;
+
+  /* don't have to use family, can easily use font-name */
+  /* use times new roman, if this is not possible, use a general serif */
+  font-family: "Times New Roman", serif;
+}

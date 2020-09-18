@@ -1,0 +1,28 @@
+/* including external fonts with google font */
+
+/* https://fonts.google.com */
+
+/*
+
+ we need to put this in the HEAD of our HTML
+ pretty common to have 2 fonts, one for headings and one for text
+
+ <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+ */
+
+.headings {
+  font-family: "Ranchers", cursive;
+}
+
+.text {
+  font-family: "Anton", sans-serif;
+}
+
+/* 
+
+DO NOT put too much fonts in your app, these are external downloads,
+if too many, they will low down the page
+
+*/
